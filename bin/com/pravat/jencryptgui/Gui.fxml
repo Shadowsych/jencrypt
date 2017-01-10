@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pravat.jencryptgui.mainController">
+   <children>
+      <Pane layoutX="-9.0" layoutY="-14.0" prefHeight="421.0" prefWidth="480.0">
+         <children>
+            <Button fx:id="encryptBTN" layoutX="21.0" layoutY="25.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" text="Encrypt" />
+            <Text fx:id="waterMark" fill="RED" layoutX="21.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JEncrypt was coded by Shadowsych (www.github.com/Shadowsych)" wrappingWidth="361.00000208616257" />
+            <TextField fx:id="enterPassword" layoutX="102.0" layoutY="25.0" prefHeight="25.0" prefWidth="191.0" promptText="Enter password here..." />
+            <Button fx:id="decryptBTN" layoutX="21.0" layoutY="50.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" text="Decrypt" />
+            <TextField fx:id="decryptPassword" layoutX="102.0" layoutY="50.0" prefHeight="25.0" prefWidth="191.0" promptText="Enter Base64 hash here..." />
+            <TextArea fx:id="showResults" layoutX="21.0" layoutY="75.0" prefHeight="324.0" prefWidth="451.0" />
+            <TextField fx:id="saltText" layoutX="293.0" layoutY="25.0" prefHeight="25.0" prefWidth="181.0" promptText="Salt password... (optional)" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
