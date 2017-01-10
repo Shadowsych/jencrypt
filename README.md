@@ -4,6 +4,9 @@ JEncrypt (or Java Encrypt) is a Java-based application that is used to hash your
 The code uses Apache commoncode-codec libraries.
 Proper documentation is provided below the README.
 
+If you're looking for a repository that can decrypt hashes, then look into this:
+https://github.com/Shadowsych/jdictionaryattack
+
 # Dependencies
 JEncrypt utilizes two forms.
 - The first form is an editable source code for programmers to code
