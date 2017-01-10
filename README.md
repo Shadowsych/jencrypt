@@ -32,7 +32,7 @@ import com.pravat.jencrypt.JEncrypt;
 ```
 Make a JEncrypt instance
 ```
-JEncrypt encryption = new JEncrypt();
+JEncrypt encryptionSource = new JEncrypt();
 ```
 Encryption Possiblities
 ```
